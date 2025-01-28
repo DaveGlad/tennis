@@ -16,21 +16,34 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Documentation des Exercices
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Structure du Projet
 
-## Learn More
+### Exercice 1 - Base de Données
 
-To learn more about Next.js, take a look at the following resources:
+- Se trouve à la racine du projet dans le dossier `exo-1-db`
+- Contient les scripts SQL et la structure de la base de données
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Exercices 2 & 3 - Application Web
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Intégrés directement dans l'application principale
+- Accessible via la page d'accueil de l'application
+- **URL** : `http://localhost:3000` (en développement)
 
-## Deploy on Vercel
+## Visualisation des Exercices
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Pour voir l'Exercice 1 :
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   - Consultez le dossier `exo-1-db` à la racine du projet
+   - Contient tous les fichiers relatifs à la base de données
+
+2. Pour voir les Exercices 2 & 3 :
+   - Lancez l'application (`npm run dev`)
+   - Accédez à la page d'accueil
+   - Les exercices sont directement visibles et interactifs sur cette page
+
+## Note
+
+- Assurez-vous d'avoir installé toutes les dépendances (`npm install`) avant de lancer l'application
+- La page d'accueil sert d'interface de démonstration pour les exercices 2 et 3
