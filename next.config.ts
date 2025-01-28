@@ -1,7 +1,14 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+   images: {
+      remotePatterns: [
+         {
+            protocol: 'https', // or http
+            hostname: 'api.dicebear.com', // if your website has no www, drop it
+         },
+      ],
+   },
 };
 
 export default nextConfig;
