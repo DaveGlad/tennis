@@ -2,10 +2,10 @@ import { CircleCheck } from 'lucide-react';
 
 function ExerciceIntegration() {
    return (
-      <div className="min-h-screen bg-[#FAFAFA] p-6 flex items-center justify-center">
+      <div className="min-h-[400px] bg-[#FAFAFA] p-6 flex items-center justify-center">
          <div className="w-[320px] bg-white rounded-2xl p-5">
             <div className="flex items-center gap-2 mb-4">
-               <span className="bg-[#EEF4FF] text-[#3B82F6] text-[13px] font-medium px-3 py-1 rounded-full">
+               <span className="bg-purple-500/10 text-purple-500 font-bold text-[13px]  px-4 py-1.5 rounded-full">
                   User Interface
                </span>
             </div>
@@ -56,7 +56,7 @@ function ExerciceIntegration() {
                </div>
             </div>
 
-            <div className="flex items-center gap-4 border justify-center py-2.5 rounded-full">
+            <div className="flex items-center gap-5 border justify-center py-2.5 rounded-full">
                <div className="flex items-center gap-1.5">
                   <svg
                      className="w-4 h-4 text-[#6B7280]"
@@ -75,6 +75,8 @@ function ExerciceIntegration() {
                      4 Attachment
                   </span>
                </div>
+
+               <div className="bg-[#c4cbd8] w-[1px] h-3" />
 
                <div className="flex items-center gap-1.5">
                   <svg
